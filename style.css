@@ -170,3 +170,82 @@ header h2 span{
     font-size: 1.4em;
     margin: 1.5em 0;
 }
+
+/* *=========== service info section css ===========* */
+
+.service-info-section{
+    padding: 5em 24em;
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.service-info-text h3{
+    font-size: 3em;
+    border-left: .2em solid var(--clr-third-laddu-orange);
+    padding-left: .2em;
+}
+
+.service-info-text > p{
+    font-size: 1.4em;
+    color: var(--clr-secondary-dull);
+    font-weight: 400;
+    margin: 2em 1em 2em 0;
+}
+
+.architect-img{
+    position: relative;
+}
+
+.architect-img img{
+    width: 46.8em;
+    height: 65em;
+    object-fit: contain;
+    border-radius: .1em;
+    
+}
+
+.experience-display{
+    position: absolute;
+    text-align: center;
+    background-color: var(--clr-third-laddu-orange);
+    padding: 2em;
+    color: #fff;
+    border-radius: .5em;
+    bottom: 0;
+    margin-left: -2.6em;
+  
+}
+
+.experience-display p{
+    font-size: 3em;
+    font-weight: 700;
+
+}
+
+.experience-display span{
+    font-size: 1.4em;
+}
+
+
+.service-info{
+    background-color: #fff;
+    box-shadow: 0 .4em 3em rgba(0, 0, 0, 0.06);
+    padding: 2em;
+    border-radius: .5em;
+    margin-bottom: 1em;
+}
+
+.service-info h5{
+    font-size: 1.8em;
+    color: var(--clr-primary-cursed-black);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service-info p{
+    font-size: 1.3em;
+    color: var(--clr-secondary-dull);
+    font-weight: 400;
+    margin: .8em 1em 0 0;
+}
