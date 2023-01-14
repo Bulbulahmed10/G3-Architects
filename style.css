@@ -36,6 +36,13 @@ a{
     margin: 0 auto;
 }
 
+.section-heading{
+    font-size: 2.8em;
+    color: var(--clr-primary-cursed-black);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
 .primary-btn{
     border: none;
     outline: none;
@@ -248,4 +255,96 @@ header h2 span{
     color: var(--clr-secondary-dull);
     font-weight: 400;
     margin: .8em 1em 0 0;
+}
+
+
+/* *=========== some facts section css ===========* */
+
+.some-facts{
+    padding: 4em 24em;
+}
+
+.some-facts p{
+    font-size: 1.4em;
+    color: var(--clr-secondary-dull);
+    font-weight: 400;
+    width: 30em;
+    margin-top: 1.2em;
+}
+
+.facts-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+.single-fact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .2em solid var(--clr-third-laddu-orange);
+    padding: 2em 2.5em;
+    border-radius: .5em;
+    transition: all .5s ease;
+}
+
+.single-fact:hover{
+    background-color: #FFF4E6;
+    transform: scale(1.1);
+   
+}
+
+.single-fact img{
+ width: 4em;
+ height: 4em;   
+}
+
+.single-fact span:nth-of-type(1){
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-top: .2em;
+    color: #424242;
+}
+
+.single-fact span:nth-of-type(2){
+    font-size: 1.4em;
+    color: var(--clr-secondary-dull);
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: .1em;
+}
+
+/* *=========== sponsor section css ===========* */
+
+
+.sponsor{
+    padding: 4em 24em;
+}
+
+.sponsor h3{
+    text-align: center;
+}
+
+.sponsor p{
+    text-align: center;
+    color: var(--clr-secondary-dull);
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    font-size: 1.4em;
+    width: 35em;
+    
+}
+
+.sponsor-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+.sponsor-container img{
+    width: 12em;
+    height: 4em;
 }
