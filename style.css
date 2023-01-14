@@ -348,3 +348,95 @@ header h2 span{
     width: 12em;
     height: 4em;
 }
+
+/* *=========== price list section css ===========* */
+
+.price-list{
+    padding: 4em 24em;
+}
+
+.price-list h3{
+    text-align: center;
+}
+
+.price-list > p{
+    text-align: center;
+    color: var(--clr-secondary-dull);
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    
+    font-size: 1.4em;
+    width: 35em;
+}
+
+.price-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.single-price{
+    background-color: #fff;
+    box-shadow: 0 .4em 3em rgba(0, 0, 0, 0.06);
+    margin-right: 4em;
+   
+    padding-bottom: 0;
+    width: 30em;
+    border-radius: .5em;
+    
+}
+
+.single-price h3{
+    text-align: center;
+    font-size: 2.3em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: .3em solid var(--clr-third-laddu-orange);
+    margin-top: 1em;
+}
+
+
+.single-price li{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+.single-price li i{
+    margin-right: 1em;
+   font-size: 1.4em !important;
+}
+
+.fa-check{
+    color: green;
+}
+
+.fa-xmark{
+    color: red;
+}
+
+.single-price p{
+    background-color:orangered;
+    text-align: center;
+    padding: 1.2em 0;
+    color: #fff;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1em;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.single-price p:hover{
+    background-color: var(--clr-third-laddu-orange);
+}
+
+.single-price:nth-of-type(2){
+    scale: 1.1;
+}
