@@ -43,7 +43,7 @@ a {
 }
 
 .primary-btn {
-  border: .1em solid transparent;
+  border: 0.1em solid transparent;
   outline: none;
   background-color: var(--clr-third-laddu-orange);
   color: #fff;
@@ -54,15 +54,14 @@ a {
   letter-spacing: 0.1em;
   cursor: pointer;
   border-radius: 0.5em;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-.primary-btn:hover{
-    background-color: transparent;
-    color: var(--clr-third-laddu-orange);
-    border: .1em solid var(--clr-third-laddu-orange);
+.primary-btn:hover {
+  background-color: transparent;
+  color: var(--clr-third-laddu-orange);
+  border: 0.1em solid var(--clr-third-laddu-orange);
 }
-
 
 /* *=========== header section css ===========* */
 
@@ -80,7 +79,8 @@ header {
   gap: 3em;
 }
 
-header h2 a {
+header h2 a,
+footer h2 a {
   font-family: "Lobster", cursive;
   font-size: 2.1em;
   color: var(--clr-primary-cursed-black);
@@ -89,7 +89,8 @@ header h2 a {
   letter-spacing: 0.1em;
 }
 
-header h2 span {
+header h2 span,
+footer h2 span {
   color: var(--clr-third-laddu-orange);
   text-transform: lowercase;
 }
@@ -99,11 +100,11 @@ header h2 span {
   text-transform: capitalize;
   color: var(--clr-primary-cursed-black);
   font-weight: 500;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
-.header-nav li a:hover{
-    color: var(--clr-third-laddu-orange);
+.header-nav li a:hover {
+  color: var(--clr-third-laddu-orange);
 }
 
 /* *=========== header banner section css ===========* */
@@ -376,7 +377,7 @@ header h2 span {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin: 6em 0;
 }
 
 .single-price {
@@ -454,4 +455,59 @@ header h2 span {
 
 .single-price:nth-of-type(2) {
   scale: 1.1;
+}
+
+/* *=========== footer section section css ===========* */
+
+footer {
+  padding: 4em 24em;
+  background-color: rgba(255, 144, 14, 0.1);
+  display: flex;
+  gap: 20em;
+}
+
+.footer-left p:nth-of-type(1) {
+  font-size: 1.3em;
+  color: var(--clr-secondary-dull);
+  width: 35em;
+  margin: 1.2em 0;
+}
+
+.footer-left div a {
+  font-size: 2em;
+  margin-right: 0.5em;
+  color: var(--clr-primary-cursed-black);
+}
+
+.footer-left p:nth-of-type(2) {
+  margin-top: 1em;
+  font-size: 1.3em;
+  color: rgb(23, 23, 78);
+}
+.footer-right h5 {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+form input,
+textarea {
+  width: 28em;
+  outline: none;
+  padding: 1em;
+  border: 0.1em solid var(--clr-third-laddu-orange);
+  resize: none;
+
+  border-radius: 0.2em;
+}
+
+form button {
+  width: 10em;
 }
