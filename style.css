@@ -1,0 +1,126 @@
+/* *=========== google fonts ===========* */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;900&family=Lobster&display=swap');
+
+/* *=========== default css ===========* */
+
+:root{
+    --clr-primary-cursed-black: #131313;
+    --clr-secondary-dull: #727272;
+    --clr-third-laddu-orange: #ff900e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    /* convert 1em = 10px */
+    font-size: 62.5%; 
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-width{
+    max-width: 192em;
+    margin: 0 auto;
+}
+
+.primary-btn{
+    border: none;
+    outline: none;
+    background-color: var(--clr-third-laddu-orange);
+    color: #fff;
+    padding: 1em 1.5em;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    letter-spacing: .1em;
+    cursor: pointer;
+    border-radius: .5em;
+}
+
+/* *=========== header section css ===========* */
+
+header{
+    padding: 4em 24em ;
+    background-color:  rgba(255, 144, 14, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+header h2 a{
+    font-family: 'Lobster', cursive;
+    font-size: 2.1em;
+    color: var(--clr-primary-cursed-black);
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing:  .1em;
+}
+
+header h2 span{
+    color: var(--clr-third-laddu-orange);
+    text-transform: lowercase;
+}
+
+.header-nav li a{
+    font-size: 1.6em;
+    text-transform: capitalize;
+    color: var(--clr-primary-cursed-black);
+    font-weight: 500;
+}
+
+/* *=========== header banner section css ===========* */
+
+.header-banner{
+    padding: 1em 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(255, 144, 14, 0.1);
+}
+
+.banner-text{
+    width: 70em;
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 4.5em;
+    color: var(--clr-primary-cursed-black);
+    font-weight: 700;
+}
+
+.banner-text p{
+    color: var(--clr-secondary-dull);
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 1em 0;
+   
+}
+
+.banner-text button{
+    margin-bottom: 1em;
+}
+
+.banner-img img{
+    width: 100%;
+    border-radius: .5em;
+}
